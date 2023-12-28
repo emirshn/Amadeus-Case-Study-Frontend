@@ -5,7 +5,6 @@ app = FastAPI()
 
 origins = [
     "http://localhost:4200",
-    "https://your-production-url",
 ]
 
 @app.get("/flights", response_model=dict)
